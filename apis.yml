@@ -1,22 +1,65 @@
 aid: panacea
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/panacea.png
 name: Panacea
-description: Panacea is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Panacea is an AI-native FDA regulatory services firm (Y Combinator Spring 2026, operating as
+  withpanacea.com) that pairs experienced ex-FDA regulatory consultants with a proprietary AI
+  platform to accelerate medical device and pharmaceutical companies through FDA approval. Panacea
+  supports the full range of U.S. regulatory pathways - 510(k), De Novo, PMA, IDE, IND, NDA, BLA,
+  ODD, Pre-Subs, and BDD - handling regulatory strategy, pre-FDA meetings, and submission authoring
+  through to clearance and approval. The company differentiates on milestone-based, outcome-aligned
+  pricing rather than hourly billing, claiming results roughly 60% faster than traditional firms
+  while keeping 100% expert oversight. Panacea is a professional services / consulting company; it
+  does not currently publish a public API, developer portal, SDKs, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/panacea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: Spring 2026
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Regulatory
+- FDA
+- Healthcare
+- Life Sciences
+- Medical Devices
+- Pharmaceuticals
+- Consulting
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/panacea-domain-security.yml
+- type: Website
+  url: https://withpanacea.com
+- type: Support
+  url: https://cal.com/haris-panacea/call
+- type: LinkedIn
+  url: https://www.linkedin.com/company/panacea-bio/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
